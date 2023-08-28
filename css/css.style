@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
 }
-@font-face {
+/*@font-face {
     font-family: montserrat-bold;
     src: url(/fonts/montserrat-bold.ttf);
 }
@@ -12,7 +12,7 @@
 @font-face {
     font-family: PT-serif-regular;
     src: url(/fonts/PT-serif-regular.ttf);
-}
+}*/
 body {
     margin: 0;
 }
@@ -37,7 +37,6 @@ body {
     display: flex;
 }
 .menu__red h4 a {
-    font-family: montserrat-regular;
     text-decoration: none;
     color: white;
     padding: 12px 15px 12px 15px;
@@ -52,7 +51,6 @@ body {
 }
 .name__red {
     max-width: 500px;
-    font-family: montserrat-bold;
     margin: 0;
     font-size: 60px;
     font-weight: bold;
@@ -60,14 +58,12 @@ body {
 }
 .name__red1 {
     max-width: 500px;
-    font-family: montserrat-bold;
     margin: 0;
     font-size: 60px;
     font-weight: bolder;
 }
 .text__red {
     max-width: 480px;
-    font-family: PT-serif-regular;
     margin-top: 60px;
     font-size: 18px;
 }
@@ -86,7 +82,6 @@ body {
     margin-right: 10px;
     font-size: 50px;
     text-transform: uppercase;
-    font-family: montserrat-bold;
 }
 .Our__heading {
     color: #c62314;
@@ -107,7 +102,6 @@ body {
 .icon__text {
     max-width: 170px;
     font-size: 18px;
-    font-family: PT-serif-regular;
 }
 /*2*/
 .block3 {
@@ -121,7 +115,6 @@ body {
 .block3 h3{
     margin: auto 0;
     padding: 0 105px;
-    font-family: montserrat-regular;
     text-transform: uppercase;
 }
 .block3 h3 a{
@@ -140,7 +133,6 @@ body {
     max-width: 600px;
     padding: 0 105px;
     font-size: 18px;
-    font-family: PT-serif-regular;
 }
 /*3*/
 .block4 {
@@ -152,7 +144,6 @@ body {
 .heading__block4 {
     color: #130e27;
     text-transform: uppercase;
-    font-family: montserrat-bold;
     font-size: 50px;
     padding: 60px 500px;
     margin: 0;
@@ -165,7 +156,6 @@ body {
 }
 .item h1 {
     color: #c62314;
-    font-family: montserrat-bold;
     font-size: 50px;
 }
 .item h3 a {
@@ -175,7 +165,6 @@ body {
     background-color: #130e27;
     padding: 10px 50px;
     text-transform: uppercase;
-    font-family: montserrat-regular;
 }
 .item h3 a:hover {
     border-radius: 5px;
@@ -183,13 +172,11 @@ body {
 }
 .extra1 {
     font-size: 22px;
-    font-family: PT-serif-regular;
 }
 .extra2 {
     line-height: 15px;
     padding-bottom: 15px;
     font-size: 18px;
-    font-family: PT-serif-regular;
 }
 .item {
     border-radius: 5px;
